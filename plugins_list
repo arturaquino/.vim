@@ -4,6 +4,7 @@ Plugins list
 
 01. mustang.vim - (croaker/mustang-vim)
 02. Solarized - (altercation/vim-colors-solarized)
+03. AirLine - better status line for vim (bling/vim-airline)
 
 
 # lib
@@ -30,4 +31,5 @@ Plugins list
 14. DelimitMate - intelligent autocompletion for quotes, brackets, ... (Raimondi/delimitMate)
 15. Surround - (un)wrap text in insert mode using symbols (tpope/vim-surround)
 16. CtrlP - fuzzy file, buffer, mru, tag, finder with regex support, ... (kien/ctrlp.vim)
+17. Vdebug - debugger for DBGp supporting python, php, ruby, ... (joonty/vdebug)
 

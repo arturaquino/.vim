@@ -43,6 +43,9 @@ Bundle 'majutsushi/tagbar'
 Bundle 'Raimondi/delimitMate'
 Bundle 'tpope/vim-surround'
 
+Bundle 'joonty/vdebug.git'
+Bundle 'bling/vim-airline'
+
 
 " Github repos of the user 'vim-scripts'
 " => can omit the username part
@@ -92,6 +95,13 @@ set nocscopeverbose
 
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""
+" => backup and swap files
+"""""""""""""""""""""""""""""""""""""""""""""""
+set backupdir=./.backup,.,/tmp
+set directory=.,./.backup,/tmp
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => search highlight cleaner
@@ -146,3 +156,12 @@ nmap <Leader>sh  :leftabove  vnew<CR>
 nmap <Leader>sl  :rightbelow vnew<CR>
 nmap <Leader>sk  :leftabove  new<CR>
 nmap <Leader>sj  :rightbelow new<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""
+" => Vdebug
+"""""""""""""""""""""""""""""""""""""""""""""""
+let g:vdebug_options = {
+\ 'path_maps': {"/Users/Artur/Sites/sispp": "/Users/Artur/Sites/sispp"},
+\ 'server': '0.0.0.0'
+\}
+
